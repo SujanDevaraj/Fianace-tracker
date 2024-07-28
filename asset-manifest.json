@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Fianace-tracker/static/css/main.9d282418.css",
+    "main.js": "/Fianace-tracker/static/js/main.0dfbad87.js",
+    "static/media/transaction.svg": "/Fianace-tracker/static/media/transaction.004d9f02317991455e50b36d9dae2a26.svg",
+    "index.html": "/Fianace-tracker/index.html",
+    "main.9d282418.css.map": "/Fianace-tracker/static/css/main.9d282418.css.map",
+    "main.0dfbad87.js.map": "/Fianace-tracker/static/js/main.0dfbad87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d282418.css",
+    "static/js/main.0dfbad87.js"
+  ]
+}
