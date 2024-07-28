@@ -1,4 +1,4 @@
-{
+{"homepage": "https://SujanDevaraj.github.io/Fianace-tracker",
   "name": "project",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,12 @@
     "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
   },
+  "resolutions": {
+    "@ant-design/icons": "^4.8.3"
+  },
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
