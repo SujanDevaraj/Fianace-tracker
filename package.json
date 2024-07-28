@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/charts": "^1.4.2",
+    "@ant-design/icons": "^5.4.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -21,7 +22,7 @@
     "web-vitals": "^2.1.4"
   },
   "resolutions": {
-    "@ant-design/icons": "^4.8.3"
+    "@ant-design/icons": "^5.4.0"
   },
   "scripts": {
     "preinstall": "npm install --legacy-peer-deps",
@@ -29,7 +30,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm install --legacy-peer-deps && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "npx update-browserslist-db@latest && npm install --legacy-peer-deps"
