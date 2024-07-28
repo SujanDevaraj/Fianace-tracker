@@ -5,7 +5,7 @@
         "src": "package.json",
         "use": "@vercel/static-build",
         "config": {
-          "installCommand": "npm run install:legacy",
+          "installCommand": "npm run preinstall",
           "buildCommand": "npm run build"
         }
       }

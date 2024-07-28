@@ -23,7 +23,7 @@ const Login = () => {
         e.preventDefault();
         console.log(email)
         console.log(password)
-        if(email!='' && password!=''){
+        if(email!=='' && password!==''){
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed in 
