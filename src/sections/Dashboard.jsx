@@ -165,7 +165,7 @@ return (
           onFinish={onFinish}
         />
         {
-          transactions && transactions.length!=0 ? < Chart sortedTransactions={sortedTransactions}/> :
+          transactions && transactions.length!==0 ? < Chart sortedTransactions={sortedTransactions}/> :
           <NoTransaction/>
           
         }

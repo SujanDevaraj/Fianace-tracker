@@ -8,7 +8,7 @@ const Chart = ({sortedTransactions}) => {
     })
     
     const spendingData = sortedTransactions.filter((transaction)=>{
-      if(transaction.type == 'expense') {
+      if(transaction.type === 'expense') {
         return { tag: transaction.tag, amount: transaction.amount };
       }
     });
@@ -30,9 +30,9 @@ const Chart = ({sortedTransactions}) => {
     ]
 
     spendingData.forEach(element => {
-      if(element.tag == 'food') {
+      if(element.tag === 'food') {
         newSpending[0].amount += element.amount;
-      } else if (element.tag == 'education') {
+      } else if (element.tag === 'education') {
         newSpending[1].amount += element.amount
       } else{
         newSpending[2].amount += element.amount;
