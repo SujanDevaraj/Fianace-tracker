@@ -23,6 +23,7 @@
     "@ant-design/icons": "^4.8.3"
   },
   "scripts": {
+    "install:legacy": "npm install --legacy-peer-deps",
     "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
     "start": "react-scripts start",
